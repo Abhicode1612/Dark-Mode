@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+.moon{
+    border:none;
+    background-color: #fff;
+    top:20px;
+    right:20px;
+    position:fixed;
+    font-size:30px;
+}
+.moon.active{
+    background-color:black;
+    color:white;
+    transition: background 0.5s ease-in-out;
+}
+
+body.dark{
+    background-color: black;
+    color:white;
+    transition: background 0.5s ease-in-out;
+}
+
