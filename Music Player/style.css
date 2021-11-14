@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background-color: aqua;
+}
+button{
+    margin-right: 20px;
+}
+
+.styling{
+    font-size: 20;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 5px ;
+    padding:1rem;
+}
